@@ -1,6 +1,8 @@
 import torch
 
 def torch2D_Hausdorff_distance(x,y): # Input be like (Batch,width,height)
+    x = x.float()
+    y = y.float()
     distance_matrix = torch.cdist(x,y,p=2) # p=2 means Euclidean Distance
     
     value1 = distance_matrix.min(2)[0].max(1, keepdim=True)[0]
