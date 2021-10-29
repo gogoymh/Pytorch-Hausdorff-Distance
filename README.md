@@ -7,6 +7,8 @@ Both dimensions should be like (Batch, width, heidht).
 
 ## How to use
 ```
+from hausdorff_distance import torch2D_Hausdorff_distance
+
 u = torch.Tensor([[[1.0, 0.0],
                    [0.0, 1.0],
                    [-1.0, 0.0],
