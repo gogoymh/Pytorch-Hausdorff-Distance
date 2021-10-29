@@ -2,6 +2,9 @@
 
 This is pytorch implementation of Hausdorff Distance for 2D image binary segmentation.
 
+## Notice: Input and Target dimension
+Both dimensions should be like (Batch, width, heidht).
+
 ## How to use
 ```
 u = torch.Tensor([[[1.0, 0.0],
