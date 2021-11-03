@@ -4,7 +4,7 @@ This is pytorch implementation of Hausdorff Distance for 2D image binary segment
 
 ## Notice: Input and Target dimension
 Both dimensions should be like (Batch, Width, Height) or (Batch, Height, Width).
-Notice that there is not Channel dimesion.
+Notice that there is no Channel dimesion.
 
 ## How to use
 ```
