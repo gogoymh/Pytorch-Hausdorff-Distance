@@ -8,7 +8,7 @@ Notice that there is no Channel dimesion. \
 Input and Target should be same dimension.
 
 ## Output Dimension
-Output Dimension is (B). \
+Output Dimension is (Batch). \
 You can use it by sum or mean after get result.
 
 ## How to use
