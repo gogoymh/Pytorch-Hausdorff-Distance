@@ -5,7 +5,7 @@ The implementation is made for batch-wise inference.
 ## Notice: Input and Target dimension
 Both dimensions should be like (Batch, Width, Height) or (Batch, Height, Width). \
 Notice that there is no Channel dimesion. \
-Input and Target has same dimension
+Input and Target should be same dimension.
 
 ## Output Dimension
 Output Dimension is (B). \
