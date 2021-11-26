@@ -3,12 +3,12 @@
 This is pytorch implementation of Hausdorff Distance for 2D image binary segmentation.
 
 ## Notice: Input and Target dimension
-Both dimensions should be like (Batch, Width, Height) or (Batch, Height, Width).\\
-Notice that there is no Channel dimesion.\\
+Both dimensions should be like (Batch, Width, Height) or (Batch, Height, Width). \
+Notice that there is no Channel dimesion. \
 Input and Target has same dimension
 
 ## Output Dimension
-Output Dimension is (B).\\
+Output Dimension is (B). \
 You can use it by sum or mean after get result.
 
 ## How to use
