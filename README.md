@@ -9,11 +9,11 @@ Input and Target should be same dimension.
 
 ## Output Dimension
 Output Dimension is (Batch). \
-You can use it by sum or mean after get result.
+You can use it by sum or mean after getting result.
 
 ## How to use
 ```
-from hausdorff_distance import torch2D_Hausdorff_distance
+from hausdorff_distance import torch2D_Hausdorff_distance as HD
 
 u = torch.Tensor([[[1.0, 0.0],
                    [0.0, 1.0],
@@ -24,6 +24,6 @@ v = torch.Tensor([[[2.0, 0.0],
                    [-2.0, 0.0],
                    [0.0, -4.0]]])
                    
-HD = torch2D_Hausdorff_distance(u,v)
-print(HD)
+Hausdorff_distance = HD(u,v)
+print(Hausdorff_distance.mean())
 ```
