@@ -1,6 +1,6 @@
 # Pytorch-Hausdorff-Distance
 This is pytorch implementation of Hausdorff Distance for 2D image binary segmentation. \
-The implementation is made for batch inference.
+The implementation is made for batch-wise inference.
 
 ## Notice: Input and Target dimension
 Both dimensions should be like (Batch, Width, Height) or (Batch, Height, Width). \
